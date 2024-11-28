@@ -1,0 +1,9 @@
+.form-control {
+  width: 500px;
+}
+
+.form-control .error {
+  color: #ff5644;
+  font-weight: 600;
+  margin-top: 10px;
+}

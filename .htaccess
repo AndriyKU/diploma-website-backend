@@ -1,0 +1,15 @@
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+# Options -MultiViews
+
+# ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1

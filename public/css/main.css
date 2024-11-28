@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=cyrillic-ext");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  color: #333;
+  background: #fff;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  margin: 15px 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.external-link {
+  color: rgb(67, 187, 235);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff5644;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 600ms ease;
+}
+
+.btn:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, 0.3);
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  background: #fff;
+}
+
+.header > .logo img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+}
+
+.header > .logo span {
+  float: left;
+  font-size: 18px;
+  display: block;
+  width: 180px;
+  margin-top: 20px;
+}
+
+.header > .nav > ul {
+  background: #fafafa;
+  list-style: none;
+}
+
+.header > .nav > ul > li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.main {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.website-name {
+  font-size: 60px;
+}
+
+.auth-message {
+  text-align: left;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > .social li {
+  display: inline-block;
+  transition: all 600ms ease;
+}
+
+footer > .social li i {
+  background: silver;
+  color: #333;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+footer > .social li:hover {
+  transform: translateY(-5px);
+}

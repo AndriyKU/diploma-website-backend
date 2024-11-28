@@ -1,0 +1,20 @@
+.container.main {
+  margin: 20px 0;
+}
+
+h1,
+p {
+  text-align: left;
+}
+
+h1 {
+  margin: 40px 0 60px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.user-info {
+  background: #fafafa;
+}

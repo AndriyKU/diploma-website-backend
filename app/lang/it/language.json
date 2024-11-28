@@ -1,0 +1,116 @@
+{
+  "logo": "Rimuoviamo tutto il superfluo dal link!",
+  "copyright": "Tutti i diritti sono riservati",
+  "pages": {
+    "home": {
+      "title": "Accorcia.link",
+      "descriptionPage": "Homepage",
+      "heading1": "Accorcia.link",
+      "descriptionHeading1": "Hai bisogno di abbreviare un collegamento? Ora lo faremo!",
+      "form": {
+        "link": {
+          "placeholder": "Link completo",
+          "error": "L'URL che hai fornito non è nel formato corretto"
+        },
+        "alias": {
+          "placeholder": "Nome breve",
+          "error": {
+            "lenght": "Un alias per un URL deve contenere almeno un carattere",
+            "existance": "Questa abbreviazione è già utilizzata nel database"
+          }
+        },
+        "button": "Accorcia"
+      },
+      "heading2": "Link abbreviati",
+      "linkList": {
+        "linkName": "Completo",
+        "aliasName": "Abbreviato",
+        "buttonDelete": "Elimina"
+      }
+    },
+    "about": {
+      "title": "Pagina chi siamo",
+      "descriptionPage": "Pagina chi siamo",
+      "heading1": "Riguardo a noi",
+      "paragraph1": "Un semplice placeholder riguardo a noi",
+      "paragraph2": "<string>Accorcia.link</strong> — è una risorsa web che crea una forma breve di collegamenti lunghi. Questi collegamenti abbreviati sono degli alias che mi reindirizzano al collegamento reale."
+    },
+    "contact": {
+      "title": "Pagina dei contatti",
+      "descriptionPage": "Contatti",
+      "heading1": "Feedback",
+      "descriptionHeading1": "Scrivici se hai delle domande",
+      "form": {
+        "name": {
+          "placeholder": "Inserisci il tuo nome",
+          "error": "Il nome inserito è troppo corto"
+        },
+        "email": {
+          "placeholder": "Inserisci la tua email",
+          "error": "Hai inserito un'e-mail errata, formattala correttamente"
+        },
+        "age": {
+          "placeholder": "Inserisci la tua età",
+          "error": "Non è un'età valida"
+        },
+        "message": {
+          "placeholder": "Inserisci il tuo messaggio",
+          "error": "Il messaggio è troppo breve"
+        },
+        "button": "Invia"
+      }
+    },
+    "user": {
+      "dashboard": {
+        "title": "Account dell'utente",
+        "descriptionPage": "Account dell'utente",
+        "heading1": "Dashboard",
+        "paragraph": "Ciao",
+        "button": "Logout"
+      },
+      "authentication": {
+        "title": "Login",
+        "descriptionPage": "Login",
+        "heading1": "Login",
+        "descriptionHeading1": "Qui puoi accedere al sito",
+        "form": {
+          "login": {
+            "placeholder": "Inserisci il tuo login",
+            "error": "L'utente con questo login non è registrato sul sito"
+          },
+          "password": {
+            "placeholder": "Inserisci la tua password",
+            "error": "Le password non combaciano"
+          },
+          "button": "Fatto"
+        }
+      },
+      "registration": {
+        "title": "Crea un account",
+        "descriptionPage": "Crea un account",
+        "form": {
+          "email": {
+            "placeholder": "Inserisci un'email",
+            "error": {
+              "lenght": "L'email è troppo corto",
+              "valid": "un'email cosi non esiste"
+            }
+          },
+          "login": {
+            "placeholder": "Inserisci un login",
+            "error": {
+              "lenght": "il login inserito è troppo corto",
+              "existence": "Un utente con questo login esiste già"
+            }
+          },
+          "password": {
+            "placeholder": "Inserisci una password",
+            "error": "La password deve contenere almeno 3 caratteri"
+          },
+          "button": "Registrati"
+        },
+        "authentication": "Hai già un acoount? Allora puoi <a href='/user/auth' class='external-link'>autenticarti</a>"
+      }
+    }
+  }
+}

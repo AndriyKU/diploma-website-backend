@@ -1,0 +1,17 @@
+.link {
+  width: 400px;
+  background: #ddd;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 10px auto;
+  word-wrap: break-word;
+}
+
+.link p {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.link .btn {
+  margin-top: 10px;
+}
