@@ -1,0 +1,15 @@
+{
+  "name": "www/links-alias",
+  "description": "This web resource creates a short form of long links. These shortened links are aliases that redirect me to the real link.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Andriy"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpmailer/phpmailer": "dev-master"
+  },
+  "autoload": {}
+}
